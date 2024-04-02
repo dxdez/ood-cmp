@@ -17,23 +17,22 @@ This application was designed from a sample tutorial for experimental purposes a
 Ensure you have Docker installed on your system.
 
 ### Build the Docker Image
-1. Open your terminal and navigate to the directory containing your React app and the Dockerfile.
-2. Run the following command to build a Docker image:
-    ```bash
-    docker build -t classic-meals .
-    ```
+- Open your terminal and navigate to the directory containing your React app and the Dockerfile.
+- Run the following command to build a Docker image:
+```bash
+docker build -t classic-meals .
+```
 
 ### Run Your Docker Container
-1. Once the Docker image is built successfully, you can run a Docker container based on this image with the following command:
-    ```bash
-    docker run -p 5173:5173 classic-meals
-    ```
-    This command maps port 5173 inside the container to port 5173 on your local machine, enabling access to the application through your browser.
-
-2. You should also see the container running in your Docker Desktop app.
+- Once the Docker image is built successfully, you can run a Docker container based on this image with the following command:
+```bash
+docker run -p 5173:5173 classic-meals
+```
+- This command maps port 5173 inside the container to port 5173 on your local machine, enabling access to the application through your browser.
+- You should also see the container running in your Docker Desktop app.
 
 ### Access the Dockerized React App
-1. Open your preferred web browser.
-2. Navigate to [http://localhost:5173](http://localhost:5173).
-3. You should now be able to interact with the Classic Meal Picker application in your browser.
+- Open your preferred web browser.
+- Navigate to [http://localhost:5173](http://localhost:5173).
+- You should now be able to interact with the Classic Meal Picker application in your browser.
 
