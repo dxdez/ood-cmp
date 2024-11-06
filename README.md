@@ -1,10 +1,12 @@
 # Classic Meal Picker
 
+> **Note: This project is no longer actively maintained, and the host URL endpoint is no longer active. It has been archived for historical purposes. Feel free to explore the code, but please note that it is no longer in use or supported.**
+
 The Classic Meal Picker is a prototype application developed using React and JSX components. Its primary purpose is to provide a simple interface for users to explore classic meal options, perform searches, and create custom picks for favorite meals. 
 
 The data source for this application comes from [themealdb.com](https://www.themealdb.com/ "themealdb.com") which supports a helpful list of popular meals. Additional functionality from this API includes search and random picks which are used in this application. 
 
-This application was designed from a sample tutorial for experimental purposes and for testing front-end components with an API. You can try this application by visiting the following link [here](https://classic-meal-picker.netlify.app/ "here").
+This application was designed from a sample tutorial for experimental purposes and for testing front-end components with an API. 
 
 ## Basic Features
 - Explore classic meal options presented within the application.
